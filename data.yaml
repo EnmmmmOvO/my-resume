@@ -2,9 +2,6 @@
 update_time: '2023.12.13'
 name: 王靖涵
 nickname: EnmmmmOvO
-meta_content: 大三前端狗，HR姐姐们把我招到碗里去吧
-keywords: xiao555,前端,工作,简历
-ga_id: 'UA-92595311-1'
 age: 23岁
 gender: 男
 school: University of New South Wales
@@ -60,7 +57,7 @@ experience: # 项目经验
       - name: Airbnb
         date: 2023.10 - 2023.11
         img:
-        website:
+        website: https://enmmmmovo.github.io/Airbnb/
         source_code: https://github.com/EnmmmmOvO/Airbnb
         des: !!md |
           这个项目是一个类似于 Airbnb 的网页，使用 ReactJS 作为前端框架，包括预订管理，搜索过滤器，评论等功能。整个项目使用 TypeScript 编写和较为严格的eslint规范保证了代码的质量和可靠性，使用Context 管理状态，React Router 实现路由跳转，Material UI 作为 UI 框架，以及 JTest 和 Cypress 进行组件测试和UI测试。
@@ -68,7 +65,7 @@ experience: # 项目经验
       - name: Image to Prompt
         date: 2023.07 - 2023.08
         img:
-        website:
+        website: 
         source_code: https://github.com/GATA-Chen/COMP9417_Project
         des: !!md |
           这个项目是 kaggle 上的比赛，通过输入的图片，输出对应的描述。我们小组使用了两个模型，一个是 CLIP + GPT2 , 另一个是 Resnet + LSTM ，我的部分是后者模型的构建和训练，主要逻辑是输入图像由 ResNet-50 模型提取特征，并通过线性层将特征映射到 GPT-2 模型的输入维度上，通过 LSTM 层处理特征，生成图像描述的初始文本。然后，使用 GPT-2 模型进一步处理初始文本，生成最终的图像描述。
@@ -76,7 +73,7 @@ experience: # 项目经验
       - name: Slackr
         date: 2023.09 - 2023.10
         img:
-        website:
+        website: https://enmmmmovo.github.io/Slackr
         source_code: https://github.com/EnmmmmOvO/Slackr
         des: !!md |
           这个项目是一个类似于 Slack 的网页，使用 VanillaJS 作为前端框架，包括注册登陆，创建频道，发送消息，消息回复，消息编辑，消息删除等功能，使用 Bootstrap 5 作为 UI 框架。
