@@ -59,20 +59,36 @@ function styles() {
     .pipe($.size());
 }
 
-function html() {
+function readYaml(file, schema) {
+  return matter(fs.readFileSync(file, 'utf8'), { schema }).data;
+}
+
+function html(done) {
   const MarkdownType = new yaml.Type('tag:yaml.org,2002:md', {
     kind: 'scalar',
     construct: function (text) {
       return md.render(text);
     },
   });
-  const YAML_SCHEMA = yaml.Schema.create([ MarkdownType ]);
-  const context = matter(fs.readFileSync('data.yaml', 'utf8'), {schema: YAML_SCHEMA }).data;
+  const YAML_SCHEMA = yaml.Schema.create([MarkdownType]);
+  const context = readYaml('data.yaml', YAML_SCHEMA);
+  const contextEn = readYaml('data_en.yaml', YAML_SCHEMA);
+
+  // 处理中文模板
   return gulp.src(['template/index.html', 'template/print.html'])
     .pipe($.nunjucks.compile(context))
     .pipe($.htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'))
-    .pipe($.size());
+    .pipe($.size())
+    .on('end', () => {
+      // 处理英文模板
+      gulp.src(['template_en/index_en.html', 'template_en/print_en.html'])
+        .pipe($.nunjucks.compile(contextEn))
+        .pipe($.htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('dist'))
+        .pipe($.size())
+        .on('end', done);  // 通知 Gulp 任务完成
+    });
 }
 
 function watchFiles() {
@@ -83,7 +99,7 @@ function watchFiles() {
   }
   gulp.watch(paths.scripts, scripts);
   gulp.watch(paths.styles, styles);
-  gulp.watch(['template/*.html', 'data.yaml'], html);
+  gulp.watch(['template/*.html', 'template_en/*.html', 'data.yaml', 'data_en.yaml'], html);
   gulp.watch(["dist/*.html", "dist/assets/*.*"]).on('change', browserSync.reload);
 }
 

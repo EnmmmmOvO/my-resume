@@ -1,0 +1,132 @@
+---
+update_time: '2024.05.12'
+name: Jinghan Wang
+age: 24
+nickname: EnmmmmOvO
+gender: male
+school: University of New South Wales
+profession: Information Technology
+github: https://www.github.com/enmmmmovo
+website: https://enmmmmovo.github.io
+apply_to_position: Algorithm Engineer / Software Engineer / Machine Learning Engineer
+description: !!md |
+
+contact:
+  -
+    icon: fa-envelope
+    name: Email
+    value: wangjinghan0218@gmail.com
+  -
+    icon: fa-wechat
+    name: Wechat
+    value: 'wjh20000218'
+  -
+    icon: fa-phone-square
+    name: Phone
+    value: '(+61)420385288'
+honor: # 奖项荣誉
+tech: # 技能点
+  - name: Python
+    percentage: 80%
+  -
+    name: C/C++
+    percentage: 60%
+  -
+    name: HTML/CSS
+    percentage: 50%
+  -
+    name: JS/TS
+    percentage: 50%
+  -
+    name: C/C++
+    percentage: 60%
+  -
+    name: Rust
+    percentage: 70%
+  -
+    name: Git
+    percentage: 50%
+experience: # Project Experience
+  -
+    section: Personal Projects
+    project:
+      - name: Airbnb
+        date: 2023.10 - 2023.11
+        img:
+        website: https://enmmmmovo.github.io/Airbnb/
+        source_code: https://github.com/EnmmmmOvO/Airbnb
+        des: !!md |
+          This project emulates an Airbnb-like web application, utilizing ReactJS as the front-end framework. It includes features such as booking management, search filters, and reviews. The entire project is developed in TypeScript with strict ESLint standards ensuring code quality and reliability. State management is handled via Context, routing through React Router, with Material UI for the UI framework, and component and UI testing conducted using Jest and Cypress.
+
+      - name: Image to Prompt
+        date: 2023.07 - 2023.08
+        img:
+        website:
+        source_code: https://github.com/GATA-Chen/COMP9417_Project
+        des: !!md |
+          This project was a Kaggle competition entry that involved generating textual descriptions from input images. Our team deployed two models: CLIP + GPT-2 and Resnet + LSTM, with my responsibilities encompassing the latter's construction and training. The main logic involved image feature extraction by the ResNet-50 model, mapping these features to the input dimensions of GPT-2 via a linear layer, processing features through LSTM to generate preliminary text descriptions, which were further refined by GPT-2 to produce the final image descriptions.
+
+      - name: Slackr
+        date: 2023.09 - 2023.10
+        img:
+        website: https://enmmmmovo.github.io/Slackr
+        source_code: https://github.com/EnmmmmOvO/Slackr
+        des: !!md |
+          This project is a web application similar to Slack, built using VanillaJS as the front-end framework. It features user registration and login, channel creation, message sending, replies, editing, and deletion. Bootstrap 5 is employed as the UI framework.
+
+      - name: CONEX
+        date: 2023.09 - 2023.11
+        img:
+        website:
+        source_code:
+        des: !!md |
+          This project is a networking platform connecting professionals with projects. The front-end is developed using the React framework, while the backend utilizes Python with FastAPI and SQLAlchemy, and SQLite3 for the database. Features implemented include business user registration, login, project posting, personal project viewing, applications, and reviews. I primarily handled backend development, database construction, ensured database consistency with SQLAlchemy, implemented backend interfaces with FastAPI, and user authentication with JWT.
+
+      - name: My Portfolio
+        date: 2023.12 - Present
+        img:
+        website: https://enmmmmovo.github.io/
+        source_code: https://github.com/enmmmmovo
+        des: !!md |
+          This project is my personal website, developed using React, TypeScript, and Material UI. It is currently incomplete, featuring an animated background using WebGL as well as various CSS animations. Future enhancements will include further website completion, with ongoing explorations in WebGL and Sass technologies.
+
+      - name: Transmission via wireless LAN
+        date: 2022.06 - Present
+        img:
+        website:
+        source_code: https://github.com/EnmmmmOvO/Tool
+        des: !!md |
+          This project comprises two parts: a terminal-based chat room written in Java, utilizing sockets for message sending, receiving, and file transfer. The second part is a local area network file transfer application, also developed in Java with socket implementation, capable of transferring files and directories, including support for multiple file transfers. Currently, I am working on refactoring this project using Electron, React, TypeScript, and Material UI to ensure multi-platform usability and exploring the addition of resumable file transfers.
+
+      - name: Python Web Scraping
+        date: 2021.12 - Present
+        img:
+        website:
+        source_code: https://github.com/EnmmmmOvO/Tool
+        des: !!md |
+          This project encompasses four utilities, including ongoing maintenance for a Douyu sign-in feature, retrieval of Leetcode code, downloading videos from Bbcollab, and acquiring partial data from PRTS. These tools are developed using Python and common libraries such as requests, bs4, and selenium, focusing on data scraping and processing.
+
+skill:
+      -
+        des: !!md |
+          Possesses a solid foundation in programming, proficient in mainstream programming languages, including C/C++, Java, Rust, and Python. Deeply knowledgeable in common data structures and algorithms and familiar with various design patterns, capable of solving complex problems.
+      -
+        des: !!md |
+          Experienced with database systems such as PostgreSQL and SQLite, capable of designing reliable database structures and familiar with SQL as well as database operations in Python and Java, effectively managing and maintaining backend projects.
+      -
+        des: !!md |
+          Proficient in HTML, CSS, JavaScript, and TypeScript, adept at employing modern front-end frameworks such as React and VanillaJS.
+      -
+        des: !!md |
+          Intends to pursue graduate studies in artificial intelligence, with some practical experience in neural networks, including implementing a simple CNN using PyTorch, and a basic understanding of NLP, having used the GPT-2 model for text classification. Experienced in building and training models.
+      -
+        des: !!md |
+          Experienced in deploying game servers, implementing network penetration, and domain name resolution, capable of independently managing and maintaining project deployments. Familiar with the Linux operating system, proficient in common Linux and Shell commands, adept at using Linux for development and deployment.
+      -
+        des: !!md |
+          Holds a solid computer science foundation with a deep understanding of core areas such as operating systems, computer networks, computer architecture, and compiler theory. This knowledge enables the independent design and implementation of small to medium-sized projects. Experienced in implementing Kernel-161 concurrent, memory, and file management functionalities, with some knowledge of underlying algorithms for operating systems and concurrency.
+      -
+        des: !!md |
+          Possesses internship experience in robotics programming and simulation. Utilized advanced simulation tools within ABB's RobotStudio environment to simulate complex robotic workstation operations, ensuring seamless integration from theoretical concepts to practical application. Leveraged sophisticated features of the software, such as collision detection and kinematic analysis, to predict and optimize robot trajectories and operational processes.
+
+---

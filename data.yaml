@@ -8,7 +8,7 @@ school: University of New South Wales
 profession: Computer Science
 github: https://www.github.com/enmmmmovo
 website: https://enmmmmovo.github.io
-apply_to_position: 算法工程师 / 前端工程师
+apply_to_position: 算法工程师 / 软件工程师 / 机器学习工程师
 description: !!md |
 
 contact: # 联系方式
@@ -17,21 +17,14 @@ contact: # 联系方式
     name: Email
     value: wangjinghan0218@gmail.com
   -
-    icon: fa-envelope
-    name: Email2
-    value: 573631496@qq.com
-  -
     icon: fa-wechat
     name: Wechat
     value: 'wjh20000218'
   -
     icon: fa-phone-square
-    name: Phone (China)
+    name: Phone
     value: '(+86)13855513189'
-  -
-    icon: fa-phone-square
-    name: Phone (Australia)
-    value: '(+61)420385288'
+
 honor: # 奖项荣誉
 tech: # 技能点
   - name: Python
@@ -135,5 +128,8 @@ skill:
       -
         des: !!md |
           拥有扎实的计算机科学基础，对操作系统、计算机网络、计算机组成原理以及编译原理等核心领域具有深入的理解。这些知识使我能够独立设计和实施小型到中型的项目。尝试实现过Kernel-161 并发，内存以及文件管理的功能，同时对于操作系统以及并发的底层算法有一定的了解。
+      -
+        des: !!md |
+          具有机器人编程与仿真的实习经验。在 ABB 的 RobotStudio 环境中可以利用高级仿真工具，模拟复杂的机器人工作站操作，确保从理论到实际应用的无缝对接。通过软件的高级功能，如碰撞检测和运动学分析，预测并优化机器人路径和操作过程。
 
 ---
