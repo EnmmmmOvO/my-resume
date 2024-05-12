@@ -1,8 +1,8 @@
 ---
-update_time: '2023.12.13'
+update_time: '2024.05.12'
 name: 王靖涵
 nickname: EnmmmmOvO
-age: 23岁
+age: 24岁
 gender: 男
 school: University of New South Wales
 profession: Computer Science
@@ -14,20 +14,24 @@ description: !!md |
 contact: # 联系方式
   -
     icon: fa-envelope
-    name: Email1
+    name: Email
     value: wangjinghan0218@gmail.com
   -
     icon: fa-envelope
     name: Email2
     value: 573631496@qq.com
   -
-    icon: fa-qq
-    name: QQ
-    value: '573631496'
+    icon: fa-wechat
+    name: Wechat
+    value: 'wjh20000218'
   -
     icon: fa-phone-square
-    name: PhoneNumber
-    value: '13855513189'
+    name: Phone (China)
+    value: '(+86)13855513189'
+  -
+    icon: fa-phone-square
+    name: Phone (Australia)
+    value: '(+61)420385288'
 honor: # 奖项荣誉
 tech: # 技能点
   - name: Python
@@ -45,8 +49,8 @@ tech: # 技能点
     name: C/C++
     percentage: 60%
   -
-    name: Java
-    percentage: 60%
+    name: Rust
+    percentage: 70%
   -
     name: Git
     percentage: 50%
@@ -112,10 +116,10 @@ experience: # 项目经验
         des: !!md |
           主要包含四个小工具，包括对与斗鱼签到的后续维护，Leetcode 代码的获取, Bbcollab 视频获取并下载以及 PRTS 上部分数据的获取。使用 Python 以及一些常用的库，如 requests，bs4，selenium 等，爬取少量数据并对数据进行处理。
 
-skill: # 技能清单
+skill:
       -
         des: !!md |
-          具备扎实的编程基础，熟练掌握主流编程语言，包括 C/C++、Java 和 Python。深入了解常用数据结构和算法，并熟悉多种设计模式，具备解决复杂问题的能力。
+          具备扎实的编程基础，熟练掌握主流编程语言，包括 C/C++、Java、Rust 和 Python。深入了解常用数据结构和算法，并熟悉多种设计模式，具备解决复杂问题的能力。
       -
         des: !!md |
           在数据库部分，对PostgreSQL和SQLite等数据库系统有实践经验，可以设计较为可靠的数据库结构，同时熟悉SQL语言，以及相应的在 Python，Java 中对于数据库操作，能够有效地搭建和管理后端项目。
