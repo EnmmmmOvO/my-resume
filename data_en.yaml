@@ -6,9 +6,9 @@ nickname: EnmmmmOvO
 gender: male
 school: University of New South Wales
 profession: Information Technology
-github: https://www.github.com/enmmmmovo
+github: https://github.com/EnmmmmOvO
 website: https://enmmmmovo.github.io
-apply_to_position: Algorithm Engineer / Software Engineer / Machine Learning Engineer
+apply_to_position: Full-Stack Engineer / Machine Learning Engineer
 description: !!md |
 
 contact:
@@ -33,100 +33,121 @@ tech: # 技能点
     percentage: 60%
   -
     name: HTML/CSS
-    percentage: 50%
+    percentage: 80%
   -
     name: JS/TS
+    percentage: 80%
+  -
+    name: Dart
     percentage: 50%
   -
-    name: C/C++
-    percentage: 60%
-  -
     name: Rust
-    percentage: 70%
+    percentage: 60%
   -
     name: Git
     percentage: 50%
-experience: # Project Experience
+experience:
   -
     section: Personal Projects
     project:
-      - name: Airbnb
+      - name: Member Card and Order Management System
+        date: 2024.8 - Present
+        des: !!md |
+          Developed a comprehensive full-stack management system integrating member card creation and management with an order system. The system allows users to create, edit, and manage member cards while seamlessly combining these functionalities with order processing. Additionally, it features a member card printing function to convert digital designs into physical cards, enhancing user experience.
+          The front end is implemented using Next.js and Vite, providing an efficient user interface and smooth interactions. The back end is built with FastAPI, and the database is managed using PostgreSQL. A stable server infrastructure was established to support multi-user concurrent access. Currently, the development of the order management module is in progress.
+
+      - name: Signal E2E Chat
+        date: 2024.9 - 2024.11
+        source_code: https://github.com/EnmmmmOvO/e2ee
+        des: !!md |
+          Recreated the core functionalities of Signal's end-to-end encrypted chat, including key exchange, message encryption, and decryption, using Rust. Additionally, developed a simple and intuitive user interface with the egui library, enabling secure message sending and receiving.
+
+      - name: Insect Pest Identification
+        date: 2024.06 - 2024.08
+        source_code: https://github.com/EnmmmmOvO/Information-Technology/blob/master/COMP9517/project/paper.pdf
+        des: !!md |
+          Implemented insect pest identification for 102 classes using Swin-T, VAE models, and a multi-model feature fusion approach. The latter utilized ViT, Swin-T, and ResNet to extract heatmaps, which were then fused using a multi-head attention model. The final classification was performed by a simple classifier, achieving high accuracy.
+
+      - name: Airbnb (Web App)
         date: 2023.10 - 2023.11
-        img:
         website: https://enmmmmovo.github.io/Airbnb/
         source_code: https://github.com/EnmmmmOvO/Airbnb
         des: !!md |
-          This project emulates an Airbnb-like web application, utilizing ReactJS as the front-end framework. It includes features such as booking management, search filters, and reviews. The entire project is developed in TypeScript with strict ESLint standards ensuring code quality and reliability. State management is handled via Context, routing through React Router, with Material UI for the UI framework, and component and UI testing conducted using Jest and Cypress.
+          Built a platform similar to Airbnb using ReactJS and TypeScript, including features such as booking management, search filters, and user reviews. Ensured code quality through strict ESLint rules, utilized Context for state management, React Router for routing, Material UI for UI enhancements, and conducted component and UI tests using JTest and Cypress.
 
-      - name: Image to Prompt
-        date: 2023.07 - 2023.08
-        img:
-        website:
-        source_code: https://github.com/GATA-Chen/COMP9417_Project
-        des: !!md |
-          This project was a Kaggle competition entry that involved generating textual descriptions from input images. Our team deployed two models: CLIP + GPT-2 and Resnet + LSTM, with my responsibilities encompassing the latter's construction and training. The main logic involved image feature extraction by the ResNet-50 model, mapping these features to the input dimensions of GPT-2 via a linear layer, processing features through LSTM to generate preliminary text descriptions, which were further refined by GPT-2 to produce the final image descriptions.
-
-      - name: Slackr
+      - name: Slackr (Web App)
         date: 2023.09 - 2023.10
-        img:
         website: https://enmmmmovo.github.io/Slackr
         source_code: https://github.com/EnmmmmOvO/Slackr
         des: !!md |
-          This project is a web application similar to Slack, built using VanillaJS as the front-end framework. It features user registration and login, channel creation, message sending, replies, editing, and deletion. Bootstrap 5 is employed as the UI framework.
+          Developed a Slack-like instant messaging platform using VanillaJS, featuring registration, login, channel creation, message sending, editing, and deletion. Enhanced the user interface using Bootstrap 5 to provide a polished look and feel.
 
       - name: CONEX
         date: 2023.09 - 2023.11
-        img:
-        website:
-        source_code:
         des: !!md |
-          This project is a networking platform connecting professionals with projects. The front-end is developed using the React framework, while the backend utilizes Python with FastAPI and SQLAlchemy, and SQLite3 for the database. Features implemented include business user registration, login, project posting, personal project viewing, applications, and reviews. I primarily handled backend development, database construction, ensured database consistency with SQLAlchemy, implemented backend interfaces with FastAPI, and user authentication with JWT.
+          Created an online platform connecting professionals and projects. The front end was built with React, while the back end was implemented using Python, FastAPI, and SQLAlchemy, with SQLite3 as the database. Implemented full functionalities for user registration, login, project posting, application, and commenting. Primarily responsible for back-end development, database design, and FastAPI interface creation, utilizing JWT for authentication.
 
-      - name: My Portfolio
-        date: 2023.12 - Present
-        img:
-        website: https://enmmmmovo.github.io/
-        source_code: https://github.com/enmmmmovo
+      - name: Image to Prompt
+        date: 2023.07 - 2023.08
+        source_code: https://github.com/GATA-Chen/COMP9417_Project
         des: !!md |
-          This project is my personal website, developed using React, TypeScript, and Material UI. It is currently incomplete, featuring an animated background using WebGL as well as various CSS animations. Future enhancements will include further website completion, with ongoing explorations in WebGL and Sass technologies.
+          Participated in a Kaggle competition to generate descriptive text based on input images. The team used two models: CLIP + GPT2 and ResNet + LSTM. My role involved designing and training the ResNet + LSTM model, where ResNet-50 was used for feature extraction, followed by a linear layer to map features to GPT-2 input dimensions. The LSTM generated initial descriptions, which were refined by GPT-2 to produce the final output.
 
-      - name: Transmission via wireless LAN
-        date: 2022.06 - Present
-        img:
-        website:
-        source_code: https://github.com/EnmmmmOvO/Tool
-        des: !!md |
-          This project comprises two parts: a terminal-based chat room written in Java, utilizing sockets for message sending, receiving, and file transfer. The second part is a local area network file transfer application, also developed in Java with socket implementation, capable of transferring files and directories, including support for multiple file transfers. Currently, I am working on refactoring this project using Electron, React, TypeScript, and Material UI to ensure multi-platform usability and exploring the addition of resumable file transfers.
+  -
+    section: Work/Internship Experience
+    exper:
+      -
+        company: Digital Capital Group
+        time: 2024.5.13 - Present
+        desc: !!md |
+          Converted to a full-time role after a three-month internship. Responsible for full-stack development of internal tools, event webpages, and database management. Collaborated with an outsourced technical team to maintain a decentralized wallet application.
+        project:
+          - des: !!md |
+              Independently developed a currency exchange calculator, company website, and several event pages. Designed and implemented back-end interfaces and database logic using React, Next.js/Vite, Python, FastAPI, and PostgreSQL.
+          - des: !!md |
+              Assisted the data team in web scraping using Python and applied neural networks for data analysis and prediction, improving data processing efficiency.
+          - des: !!md |
+              Worked with an outsourced team to debug and maintain the front end of a decentralized wallet application and an associated shopping platform, using Dart + Flutter and Vue. Currently leading the migration to a mobile version using Flutter.
+          - des: !!md |
+              Developed internal tools, such as batch image and PDF generation utilities, significantly improving workflow efficiency.
 
-      - name: Python Web Scraping
-        date: 2021.12 - Present
-        img:
-        website:
-        source_code: https://github.com/EnmmmmOvO/Tool
-        des: !!md |
-          This project encompasses four utilities, including ongoing maintenance for a Douyu sign-in feature, retrieval of Leetcode code, downloading videos from Bbcollab, and acquiring partial data from PRTS. These tools are developed using Python and common libraries such as requests, bs4, and selenium, focusing on data scraping and processing.
+      -
+        company: Baosight Software (Anhui) Co., Ltd.
+        time: 2023.12.20 - 2024.01.30
+        desc: !!md |
+          Interned in the robotics department, focusing on robot programming and simulation. Optimized complex workstation operations using ABB RobotStudio.
+        project:
+          - des: !!md |
+              Simulated robot workflows in the RobotStudio environment, leveraging collision detection and kinematic analysis to optimize paths and operational efficiency.
+          - des: !!md |
+              Assisted in completing a simulation demonstration, including path planning, motion design, and collision detection, ensuring seamless integration between theoretical design and practical application.
 
 skill:
-      -
-        des: !!md |
-          Possesses a solid foundation in programming, proficient in mainstream programming languages, including C/C++, Java, Rust, and Python. Deeply knowledgeable in common data structures and algorithms and familiar with various design patterns, capable of solving complex problems.
-      -
-        des: !!md |
-          Experienced with database systems such as PostgreSQL and SQLite, capable of designing reliable database structures and familiar with SQL as well as database operations in Python and Java, effectively managing and maintaining backend projects.
-      -
-        des: !!md |
-          Proficient in HTML, CSS, JavaScript, and TypeScript, adept at employing modern front-end frameworks such as React and VanillaJS.
-      -
-        des: !!md |
-          Intends to pursue graduate studies in artificial intelligence, with some practical experience in neural networks, including implementing a simple CNN using PyTorch, and a basic understanding of NLP, having used the GPT-2 model for text classification. Experienced in building and training models.
-      -
-        des: !!md |
-          Experienced in deploying game servers, implementing network penetration, and domain name resolution, capable of independently managing and maintaining project deployments. Familiar with the Linux operating system, proficient in common Linux and Shell commands, adept at using Linux for development and deployment.
-      -
-        des: !!md |
-          Holds a solid computer science foundation with a deep understanding of core areas such as operating systems, computer networks, computer architecture, and compiler theory. This knowledge enables the independent design and implementation of small to medium-sized projects. Experienced in implementing Kernel-161 concurrent, memory, and file management functionalities, with some knowledge of underlying algorithms for operating systems and concurrency.
-      -
-        des: !!md |
-          Possesses internship experience in robotics programming and simulation. Utilized advanced simulation tools within ABB's RobotStudio environment to simulate complex robotic workstation operations, ensuring seamless integration from theoretical concepts to practical application. Leveraged sophisticated features of the software, such as collision detection and kinematic analysis, to predict and optimize robot trajectories and operational processes.
+  -
+    des: !!md |
+      Strong programming foundation with proficiency in C/C++, Rust, and Python. Familiar with data structures, algorithms, and design patterns, capable of solving complex problems efficiently.
 
+  -
+    des: !!md |
+      Extensive experience in database development, proficient in PostgreSQL and SQLite. Skilled in SQL operations and database interaction within Python and Rust environments. Knowledgeable about distributed databases like Hadoop and Spark, with an understanding of DSMS optimization algorithms.
+
+  -
+    des: !!md |
+      Expertise in HTML, CSS, JavaScript, and TypeScript. Experienced in independently developing and maintaining front-end projects using frameworks like React, Vue, and Flutter.
+
+  -
+    des: !!md |
+      Specialized in artificial intelligence with hands-on experience in multiple neural network projects. Proficient in PyTorch and TensorFlow, capable of designing, training, and optimizing models for various datasets.
+
+  -
+    des: !!md |
+      Experienced in deploying full-stack servers and setting up internal network penetration. Skilled in Linux environments and Shell commands, capable of efficient project development and deployment on Linux platforms.
+
+  -
+    des: !!md |
+      Solid foundation in computer science, with in-depth knowledge of operating systems, computer networks, computer architecture, and compiler principles. Designed and implemented features like concurrency, memory, and file management in Kernel-161, gaining insight into low-level concurrency algorithms.
+
+  -
+    des: !!md |
+      Proficient in robot programming and simulation, capable of using advanced tools in ABB RobotStudio to simulate and optimize complex robot workstation operations, leveraging collision detection and path planning for improved efficiency.
 ---
